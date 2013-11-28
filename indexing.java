@@ -130,7 +130,7 @@ public class indexing {
 							String docno = doc.getField("checksum")
 									.stringValue();
 							bw.write(Querynum + " Q0 " + " " + docno + " " + j
-									+ " " + score + " patankar " + "\n");
+									+ " " + score + " name " + "\n");
 							// System.out.println (Querynum + " Q0 " + " " +
 							// docno + " " + j + " " + score +
 							// " patankar");
